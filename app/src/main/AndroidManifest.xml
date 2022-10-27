@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Model.TelaLogin">
+        <activity android:name=".Model.TelaLogin"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,19 +29,22 @@
         <activity android:name=".View.Application.cadastroExame" />
         <activity android:name=".View.Application.Graphics" />
         <activity
-            android:name=".View.Application.Ginasio">
+            android:name=".View.Application.Ginasio"
+            android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".View.Application.Desempenho">
+            android:name=".View.Application.Desempenho"
+            android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".View.Application.NovoExercicio">
+            android:name=".View.Application.NovoExercicio"
+            android:exported="true">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
